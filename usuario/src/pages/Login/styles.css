@@ -1,0 +1,46 @@
+.container-login {
+    width: 600px;
+    height: 400px;
+    max-width: 600px;
+    
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.input-name {
+    width: 200px;
+
+    border: 0;
+    border-bottom: 1px solid #AAA;
+    background: #FFF;
+
+    padding: 2px;
+    line-height: 16px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+
+    border: 0;
+    border-radius: 15px;
+
+    font-weight: bold;
+    color: #333;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #CCC;
+}
